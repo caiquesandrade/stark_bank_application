@@ -41,8 +41,10 @@ When it starts, will be printed on the terminal the options to be selected.
 ![mermaid-diagram-2024-03-19-201646](https://github.com/caiquesandrade/stark_bank_application/assets/48366009/8e049a98-8a1b-44f7-81e3-8090995d3149)
 
 ### #4 BACKLOG:
-- Create a new class to handle the statements files
-- Add method to check if object Account exists before work with that
-- Use the Account data to create an IBAN code that allows international transference's
+- Create a new class to handle the statements files.
+- Add method to check if object Account exists before work with that.
+- Use the Account data to create an IBAN code that allows international transference's (buy dolar and euro).
+- Create credit and debit card area.
 - Separate users rules and levels as Administrators, Managers, Customer, etc.
+
 
