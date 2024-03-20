@@ -1,7 +1,7 @@
 ## READE ME - CLI BANK APPLICATION ##
-### === STARK BANK CLI APLICATION === ##
+### === STARK BANK CLI APPLICATION === ##
 
-### #1 REQUIRIMENTS:
+### #1 REQUIREMENTS:
 - JDK 17 installed
 - IDE (IntelliJ, Eclipse, VSCode, etc)
 
@@ -35,9 +35,13 @@ When it starts, will be printed on the terminal the options to be selected.
     - NOTE: Transfer money first will check if you are on the security period, making sure that you are doing the transaction after the 8PM and before 6AM, if is not into this period, the MAX limit is configured on the user account, if not passed the DEFAULT value is $1000.
 - Print a statement -> Do you want check all transactions' history? So use this option to take a look on the statement history since account creation.
 - Exit the program -> Time to say goodbye and close the application losing all runtime object created.
-    - NOTE: When the aplication is closed, an CSV file is created with whole history. This file title is based on "accounNumber_accountName.csv".
+    - NOTE: When the application is closed, an CSV file is created with whole history. This file title is based on "accounNumber_accountName.csv".
 
 ### #3 DIAGRAM:
 ![mermaid-diagram-2024-03-19-201646](https://github.com/caiquesandrade/stark_bank_application/assets/48366009/8e049a98-8a1b-44f7-81e3-8090995d3149)
 
+### #4 BACKLOG:
+- Create a new class to handle the statements files
+- Add method to check if object Account exists before work with that
+- Use the Account data to create an IBAN code that allows international transference's
 
