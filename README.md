@@ -44,4 +44,5 @@ When it starts, will be printed on the terminal the options to be selected.
 - Create a new class to handle the statements files
 - Add method to check if object Account exists before work with that
 - Use the Account data to create an IBAN code that allows international transference's
+- Separate users rules and levels as Administrators, Managers, Customer, etc.
 
